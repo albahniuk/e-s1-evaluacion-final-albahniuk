@@ -68,6 +68,7 @@
     font-size: 18px;
     font-family: $font-family-primary;
     font-weight: $font-weight-bold;
+    margin: 0;
 }
 
 .text-reason {
@@ -103,10 +104,9 @@
     }
 }
 
-
 // TABLET
-
 @media all and (min-width: 768px) {
+    
     .first-section {
         padding: 30px 39px 60px 39px;
     }
@@ -153,14 +153,7 @@
 }
 
 // DESKTOP
-
 @media all and (min-width: 1280px) {
-
-    // .page__main {
-    //     margin: 0 auto;
-    //     max-width: 1110px;
-    // }
-
 
     .first-section {
         padding: 60px 275px 60px 275px;
