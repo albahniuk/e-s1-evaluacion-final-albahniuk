@@ -41,9 +41,13 @@
 }
 
 
-.reasons {
-    margin-left: 55px;
-    margin-right: 55px;
+.grid {
+    display: grid;
+    grid-template-columns: 68px 1fr 68px;
+}
+
+.box-reason {
+    grid-column: 2 / 3;
 }
 
 .reason {
@@ -55,6 +59,13 @@
 .text-reason {
     font-size: 18px;
     font-family: $font-family-secondary;
+}
+
+.button-reasons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
 }
 
 .btn-second-section {
