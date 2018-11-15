@@ -1,0 +1,32 @@
+.page__footer {
+    text-align: center;
+    background-color: $color-darkBlue;
+    color: $color-white;
+    padding: 38px 15px 30px 15px;
+    position: relative;
+}
+
+.arrow-footer {
+    width: 45px;
+    height: 45px;
+    background: url('../images/ico-arrow.svg') center no-repeat $color-white;
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.copyright {
+    font-size: 14px;
+    font-family: $font-family-secondary;
+}
+
+.text-footer {
+    font-size: 14px;
+    font-family: $font-family-secondary;
+}
+
+.heart {
+    color: $color-orange;
+}
