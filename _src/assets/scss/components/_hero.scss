@@ -1,0 +1,29 @@
+.hero {
+    background: url('../images/cover.jpg') center no-repeat $color-white;
+    height: 568px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.box-hero {
+    position: relative;
+    bottom: -143px;
+    // transform: translate(-50%, 50%);
+    color: $color-white;
+    text-align: center;
+    width: 290px;
+}
+
+.title-hero {
+    font-family: $font-family-primary;
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 55px;
+}
+
+.subtitle-hero {
+    font-family: $font-family-secondary;
+    font-size: 16px;
+    text-transform: capitalize;
+}
