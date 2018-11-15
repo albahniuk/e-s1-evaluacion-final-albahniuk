@@ -57,6 +57,12 @@
     font-family: $font-family-secondary;
 }
 
+.button-reasons {
+    display: flex;
+    // align-items: center;
+    justify-content: center;
+}
+
 .btn-second-section {
     background-color: $color-orange;
     color: $color-white;
