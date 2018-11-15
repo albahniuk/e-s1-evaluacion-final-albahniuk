@@ -1,0 +1,67 @@
+.first-section {
+    padding: 30px 15px 45px 15px;
+}
+
+.pre-text {
+    font-size: 14px;
+    color: $color-lightBlue;
+}
+
+.h2-main {
+    font-size: 24px;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-bold;
+}
+
+.main-text {
+    font-size: 18px;
+    font-family: $font-family-secondary;
+    color: $color-grey;
+}
+
+.btn-first-section {
+    border: 2px solid $color-orange;
+    border-radius: 22.5px;
+    width: 76px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-orange;
+}
+
+.second-section {
+    text-align: center;
+    background-color: #eff9ff;
+    padding: 30px 15px 60px 15px;
+
+}
+
+
+.reasons {
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.reason {
+    font-size: 18px;
+    font-family: $font-family-primary;
+    font-weight: $font-weight-bold;
+}
+
+.text-reason {
+    font-size: 18px;
+    font-family: $font-family-secondary;
+}
+
+.btn-second-section {
+    background-color: $color-orange;
+    color: $color-white;
+    border-radius: 22.5px;
+    width: 184px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
