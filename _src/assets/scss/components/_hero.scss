@@ -1,14 +1,15 @@
 .hero {
     background: url('../images/cover.jpg') center no-repeat $color-white;
-    height: 568px;
+    height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
+    align-items: flex-end;
 }
 
 .box-hero {
     position: relative;
-    bottom: -143px;
+    bottom: 143px;
     color: $color-white;
     text-align: center;
     width: 290px;
@@ -25,4 +26,15 @@
     font-family: $font-family-secondary;
     font-size: 16px;
     text-transform: capitalize;
+}
+
+.arrow-hero {
+    width: 45px;
+    height: 45px;
+    background: url('../images/ico-scroll-down.svg') center no-repeat $color-white;
+    border-radius: 50px;
+    position: relative;
+    left: 50%;
+    bottom: 53px;
+    transform: translate(-50%);
 }
