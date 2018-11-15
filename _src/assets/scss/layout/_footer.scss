@@ -30,3 +30,9 @@
 .heart {
     color: $color-orange;
 }
+
+@media all and (min-width: 768px) {
+    .page__footer {
+        padding: 38px 30px 30px 30px;
+    }
+}

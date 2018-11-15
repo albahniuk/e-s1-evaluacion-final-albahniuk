@@ -2,6 +2,14 @@
     padding: 30px 15px 45px 15px;
 }
 
+.trick {
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: -100px;
+}
+
 .pre-text {
     font-size: 14px;
     color: $color-lightBlue;
@@ -20,6 +28,7 @@
 }
 
 .btn-first-section {
+    text-decoration: none;
     border: 2px solid $color-orange;
     border-radius: 22.5px;
     width: 76px;
@@ -31,6 +40,11 @@
     font-size: 20px;
     font-family: $font-family-secondary;
     font-weight: $font-weight-medium;
+    transition: color ease .8s, background-color ease .8s;
+    &:hover {
+        color: $color-white;
+        background-color: $color-orange;
+    }
 }
 
 .second-section {
@@ -76,6 +90,7 @@
 }
 
 .btn-second-section {
+    text-decoration: none;
     background-color: $color-orange;
     color: $color-white;
     border-radius: 22.5px;
@@ -87,11 +102,18 @@
     font-size: 20px;
     font-family: $font-family-secondary;
     font-weight: $font-weight-medium;
+    transition: color ease .8s, border ease .8s, background-color ease .8s;
+    &:hover {
+        border: 2px solid $color-orange;
+        color: $color-orange;
+        background-color: $color-white;
+    }
 }
+
 
 // TABLET
 
-@media screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
     .first-section {
         padding: 30px 39px 60px 39px;
     }
@@ -139,7 +161,14 @@
 
 // DESKTOP
 
-@media screen and (min-width: 1280px) {
+@media all and (min-width: 1280px) {
+
+    // .page__main {
+    //     margin: 0 auto;
+    //     max-width: 1110px;
+    // }
+
+
     .first-section {
         padding: 60px 275px 60px 275px;
     }
