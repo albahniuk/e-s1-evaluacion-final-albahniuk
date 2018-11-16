@@ -157,7 +157,9 @@
 
     .first-section {
         padding: 60px 275px 60px 275px;
-    }
+        margin: auto;
+        max-width: 1100px;
+    } 
 
     .pre-text {
         font-size: 16px;
@@ -170,6 +172,11 @@
     .btn-first-section {
         width: 160px;
         height: 45px;
+    }
+
+    .box-section {
+        margin: auto;
+        max-width: 1100px;
     }
 
     .grid {
