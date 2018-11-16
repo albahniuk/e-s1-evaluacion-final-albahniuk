@@ -16,7 +16,7 @@
     top: -20px;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 1px 1px 6px $color-grey;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     &:hover {
         animation-name: arrow;
         animation-duration: 1s;
