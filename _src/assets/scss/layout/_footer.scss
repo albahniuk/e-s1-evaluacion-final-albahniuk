@@ -4,6 +4,7 @@
     color: $color-white;
     padding: 38px 15px 30px 15px;
     position: relative;
+    height: 128px;
 }
 
 .arrow-footer {
@@ -36,6 +37,7 @@
 .copyright {
     font-size: 14px;
     font-family: $font-family-secondary;
+    margin-bottom: 8px;
 }
 
 .text-footer {
