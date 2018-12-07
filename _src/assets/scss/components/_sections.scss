@@ -139,14 +139,34 @@
         margin-top: 60px;
     }
 
-    [class*=col-]{
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
         margin-top: 45px;
     }
-
-    .row {
-        margin-left: 15px;
-        margin-right: 15px;
+    
+    .item1 {
+        grid-column: 1 / 2;
     }
+    
+    .item2 {
+        grid-column: 2 / 3;
+    }
+    
+    .item3 {
+        grid-column: 3 / 4;
+    }
+
+    // BOOTSTRAP VERSION
+    // [class*=col-]{
+    //     margin-top: 45px;
+    // }
+
+    // .row {
+    //     margin-left: 15px;
+    //     margin-right: 15px;
+    // }
 
 }
 
